@@ -34,7 +34,7 @@ config = Config(
   wfreq = N_save, # dcd writing interval, 1 = 10 fs
   steps = N_frames*N_save, # number of simulation steps
   runtime = 0, # overwrites 'steps' keyword if > 0
-  platform = 'CPU', # or CUDA
+  platform = 'CUDA', # or CUDA
   restart = 'checkpoint',
   frestart = 'restart.chk',
   verbose = True,
